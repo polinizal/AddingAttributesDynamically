@@ -46,11 +46,10 @@
         </div>
       </div>
     </div>
-
     <script>
-      var datap = document.querySelector('.price');
-      datap.setAttribute("data-price", datap.textContent);
+      var product = document.querySelector(".product");
+      var price = document.querySelector(".price").textContent;
+      product.setAttribute("data-price",price);
     </script>
-
   </body>
 </html>
